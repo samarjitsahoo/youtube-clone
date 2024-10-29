@@ -1,0 +1,111 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-left .menu_icon{
+    width: 22px;
+    margin-right: 25px;
+}
+
+.nav-left .samartube_logo{
+    width: 2.5em;
+    height: auto;
+}
+
+.nav-left img{
+    width: 35px;
+}
+
+.nav-left h2{
+    padding-top: 2px;
+    margin-left: 5px;
+    font-size: 1.4em;
+}
+
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-middle .search-box img{
+    width: 15px;
+}
+
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+}
+
+@media (max-width:900px){
+    .menu_icon{
+        display: none;        
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 2.5em;
+    }
+    .nav-left .logo{
+        width: 7em;
+    }
+    .nav-middle .search-box input{
+        width: 300px;
+    }
+}
+
+
+@media (max-width:600px){
+    
+    .nav-middle .search-box input{
+        width: 200px;
+    }
+}
+@media (max-width:450px){
+    
+    .nav-middle .search-box{
+
+        height: 1.8em;
+    }
+    .nav-middle .search-box input{
+        width: 150px;
+    }
+}
+@media (max-width:400px){
+    
+    .nav-right .user-icon{
+        display: block;
+        width: 1.8em;
+    }
+    .nav-left .logo{
+        width: 5.5em;
+    }
+    .nav-middle .search-box{
+
+        height: 1.6em;
+    }
+    .nav-middle .search-box input{
+        width: 120px;
+    }
+}
