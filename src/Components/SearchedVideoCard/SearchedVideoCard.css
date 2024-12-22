@@ -34,23 +34,21 @@
     .thumbnail > img {
         width: 36dvw;
     }
-
 }
 
 @media screen and (max-width: 540px) {
     .thumbnail>img {
         width: 10em;
     }
-
     .title {
         font-size: 12px;
     }
 }
+
 @media screen and (max-width: 450px) {
     .thumbnail>img {
         width: 10em;
     }
-
     .title {
         font-size: 10px;
     }
@@ -60,5 +58,4 @@
     .thumbnail>img {
         width: 8em;
     }
-
 }

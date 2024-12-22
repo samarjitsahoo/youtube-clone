@@ -66,7 +66,6 @@ const Sidebar = ({sidebar,category,setCategory}) => {
           <img src={cameron} alt="" /><p>Nas Daily</p>
         </div>
       </div>
-      
     </div>
   )
 }

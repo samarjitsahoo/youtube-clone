@@ -24,11 +24,9 @@ const Feed = ({ category }) => {
       if (data.nextPageToken) {
         pageToken = data.nextPageToken;
       } else {
-        break; // Exit loop if there's no more data
+        break;
       }
     }
-
-    // Trim the array to ensure it contains exactly 1000 videos
     setData(fetchedVideos.slice(0, totalVideos));
   };
 

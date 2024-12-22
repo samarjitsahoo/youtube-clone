@@ -75,13 +75,13 @@ nav{
     }
 }
 
-
 @media (max-width:600px){
     
     .nav-middle .search-box input{
         width: 200px;
     }
 }
+
 @media (max-width:450px){
     
     .nav-middle .search-box{
@@ -92,6 +92,7 @@ nav{
         width: 150px;
     }
 }
+
 @media (max-width:400px){
     
     .nav-right .user-icon{

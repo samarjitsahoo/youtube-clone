@@ -24,14 +24,12 @@ const Navbar = ({setSidebar}) => {
         <img className="samartube_logo" src="/assets/favicon.png" alt="" />
         <h2>SamarTube</h2>
       </div>
-
       <div className="nav-middle flex-div">
         <div className="search-box flex-div">
           <input onChange={handleInputChange} type="text" placeholder="Search" />
           <Link reloadDocument to={'/searchResult/' + searchQuery}><img src={search_icon} alt=""/></Link>
         </div>
       </div>
-
       <div className="nav-right flex-div">
         <img src={upload_icon} alt="" />
         <img src={more_icon} alt="" />

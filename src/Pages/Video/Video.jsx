@@ -12,7 +12,6 @@ const Video = () => {
     <div className='play-container'>
       <PlayVideo videoId={videoId} />
       <Recommended categoryId={categoryId}/>
-      
     </div>
   )
 }
